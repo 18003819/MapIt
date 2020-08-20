@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    //Coding in FLow
+
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/map_icon"
+        android:title="Map"
+        />
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/history_icon"
+        android:title="History"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile_icon"
+        android:title="Profile"/>
+
+
+</menu>

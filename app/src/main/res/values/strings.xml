@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MapIt</string>
+    <string name="google_maps_api_key">AIzaSyCn6jNkNTu9L7acn6MyRhcbGdwTNKktjSo</string>
+
+    <string-array name="transportModes" color="@color/grey">
+        <item>Car</item>
+        <item>Walking</item>
+        <item>Public Transport</item>
+    </string-array>
+
+</resources>

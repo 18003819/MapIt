@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Register"
+    android:background="@color/colorlight">
+
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="224sp"
+                        android:layout_height="205sp"
+                        android:src="@drawable/logo"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.495"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"></ImageView>
+
+
+
+                    <EditText
+                        android:id="@+id/R_email_txb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email: "
+                        android:inputType="textEmailAddress"
+                        android:textAlignment="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                        app:layout_constraintVertical_bias="0.0"></EditText>
+
+
+                    <EditText
+                        android:id="@+id/R_password_txb"
+                        android:layout_width="match_parent"
+                        android:layout_height="60sp"
+                        android:hint="Password: "
+                        android:inputType="textPassword"
+                        android:textAlignment="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/R_email_txb"
+                        app:layout_constraintVertical_bias="0.058"></EditText>
+
+
+                    <Button
+                        android:id="@+id/signUp_Btn"
+                        android:layout_width="180sp"
+                        android:layout_height="70sp"
+                        android:elevation="100sp"
+                        android:layout_gravity="center"
+                        android:text="Sign Up"
+                        android:background="@drawable/button_border"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="@color/colorPrimaryDark"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.497"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/R_password_txb"
+                        app:layout_constraintVertical_bias="0.057"></Button>
+
+                <Button
+                    android:id="@+id/backToLogin_Btn"
+                    android:layout_width="246sp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Already have an account?"
+                    android:background="@drawable/button_border"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/signUp_Btn"
+                    app:layout_constraintVertical_bias="0.084"></Button>
+
+
+            <ProgressBar
+                android:id="@+id/register_Pb"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                ></ProgressBar>
+</androidx.constraintlayout.widget.ConstraintLayout>

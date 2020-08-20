@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171154367226",
+    "firebase_url": "https://mapit-bebf1.firebaseio.com",
+    "project_id": "mapit-bebf1",
+    "storage_bucket": "mapit-bebf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171154367226:android:b4527133cc874e669edf43",
+        "android_client_info": {
+          "package_name": "com.mapit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171154367226-sb5fpgd20bm3ecq8fa6jgu7p0jft39h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapit",
+            "certificate_hash": "b5f2f770e6c64e054041e9a5f85c6c0cb5a48963"
+          }
+        },
+        {
+          "client_id": "171154367226-qj12s7te5476b8iue0f4t9ivam27if6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTGxsg7xHBJl9bzvKMwtldxZiNnVxk9CQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171154367226-qj12s7te5476b8iue0f4t9ivam27if6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

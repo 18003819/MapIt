@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/customLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:padding="5sp"
+    android:background="@drawable/background_border">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:text="Destination:"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+
+    <TextView
+        android:id="@+id/destinationName_Txb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="name"
+        android:textAlignment="center"></TextView>
+
+
+    <ImageView
+        android:id="@+id/travelMode_Img"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/car"></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Duration:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/duration_Txb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="10min"
+        android:textAlignment="center"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Distance:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/distance_Txb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="10km"
+        android:textAlignment="center"></TextView>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3sp">
+
+        <Button
+            android:id="@+id/startTrip_Btn"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-light"
+            android:text="Start Trip"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="normal|bold"></Button>
+        <Space
+            android:layout_width="3sp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/cancelTrip_Btn"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:fontFamily="sans-serif-light"
+            android:text="Stop Trip"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="normal|bold"></Button>
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+</LinearLayout>
